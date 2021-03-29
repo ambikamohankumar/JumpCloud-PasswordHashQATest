@@ -1,0 +1,40 @@
+{
+	"id": "d8f19c53-9619-4f55-95f2-25ed1cf74e94",
+	"name": "JumpCloud",
+	"timestamp": "2021-03-29T06:59:36.675Z",
+	"collection_id": "4b1ebe7c-61e7-48c5-939d-925285a7e04f",
+	"folder_id": 0,
+	"environment_id": "a19e9e80-c8ca-4405-8089-b0547261feb4",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7c7cbe9a-9748-4bee-b418-147ce3eab0c6",
+			"name": "Shutdown",
+			"url": "http://127.0.0.1:8088/hash",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2,
+	"collection": {
+		"requests": [
+			{
+				"id": "7c7cbe9a-9748-4bee-b418-147ce3eab0c6",
+				"method": "POST"
+			}
+		]
+	}
+}

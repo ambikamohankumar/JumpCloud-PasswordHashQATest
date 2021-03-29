@@ -1,0 +1,40 @@
+{
+	"id": "32def88c-f6ec-4c5e-95f6-a69c00115c63",
+	"name": "JumpCloud",
+	"timestamp": "2021-03-29T06:59:06.302Z",
+	"collection_id": "4b1ebe7c-61e7-48c5-939d-925285a7e04f",
+	"folder_id": 0,
+	"environment_id": "a19e9e80-c8ca-4405-8089-b0547261feb4",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5010e3a9-db41-4095-88d8-264236bf734c",
+			"name": "GetStats",
+			"url": "http://127.0.0.1:8088/stats",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4,
+	"collection": {
+		"requests": [
+			{
+				"id": "5010e3a9-db41-4095-88d8-264236bf734c",
+				"method": "GET"
+			}
+		]
+	}
+}
